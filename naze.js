@@ -3016,7 +3016,7 @@ let sections = [
                 ]
     },
     ]
-    naze.sendListMsg(m.chat, mus, nyoutube, "PILIH MENU", sections, m, {quoted: fkontak})
+    naze.sendListMsg(m.chat, mus, nyoutube, ``, "PILIH MENU", sections, m, {quoted: fkontak})
             }
             break
            case 'mgroup': {
