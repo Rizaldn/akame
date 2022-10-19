@@ -3040,6 +3040,63 @@ let sections = [
             await naze.sendButtonText(m.chat, buttons, ml, nyoutube, m, {quoted: fkontak})
             }
             break
+           case 'pml': {
+
+                q = `ML FAST A ALL SERVER ✅
+Proses 1-5MENIT MAX 12JAM
+86💎Rp18.880
+172💎Rp37.465
+257💎Rp56.345
+344💎Rp74.930
+429💎Rp93.810
+514💎Rp112.690
+600💎Rp131.570
+706💎Rp150.450
+878💎Rp187.915
+963💎Rp206.795
+1050💎Rp225.380
+1220💎Rp263.140
+1412💎Rp300.900
+2194💎Rp451.940
+3073💎Rp639.855
+3688💎Rp754.020
+4032💎Rp828.950
+5532💎Rp1.131.620
+6238💎Rp1.282.070
+9288💎Rp1.882.100`
+naze.sendText(m.chat, q, m, {quoted: fkontak})
+            }
+            break
+            case 'pff': {
+                f = `*FREE FIRE FAST VIA ID* PROSES 1-5 MENIT
+
+50       💎 Rp6.552
+70       💎 Rp9.000
+100     💎 Rp13.104
+140     💎 Rp18.018
+210     💎 Rp27.027
+280    💎 Rp36.036
+355    💎 Rp45.045
+500   💎 Rp63.882
+720    💎 Rp90.090
+1000 💎 Rp126.126
+2000 💎 Rp245.700
+7290 💎 Rp900.900
+MM MINGGIAN Rp27.300
+MM BULANAN Rp136.500`
+naze.sendText(m.chat, f, m, {quoted: fkontak})
+            }
+            break
+           case 'sumibotz': {
+                pf = `${ucapanWaktu} *${pushname}*🙌
+                
+                _*Ketik Perintah Dibawah Untuk Melihat List*_
+                ${prefix}pml
+                ${prefix}pff`
+                let btn = []
+                await naze.sendButtonText(m.chat, btn, pf, nyoutube, m, {quoted: fkontak})
+            }
+            break
            case 'mgroup': {
 goup = `┌──⭓ *Group Menu*
 │
