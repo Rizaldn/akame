@@ -31,22 +31,22 @@ const ownernya = ownernomer + '@s.whatsapp.net'
 //TIME
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')  
  if(time2 < "23:59:00"){
-var ucapanWaktu = 'Selamat Malam 🌌'
+var ucapanWaktu = 'Oyasuminasai 🙌'
  }
  if(time2 < "19:00:00"){
-var ucapanWaktu = 'Selamat Sore 🌃'
+var ucapanWaktu = 'Oyasuminasai 🙌'
  }
  if(time2 < "18:00:00"){
-var ucapanWaktu = 'Selamat Sore 🌅'
+var ucapanWaktu = "Kon'nichiwa 🙌"
  }
  if(time2 < "15:00:00"){
-var ucapanWaktu = 'Selamat Siang 🏙'
+var ucapanWaktu = "Kon'nichiwa 🙌"
  }
  if(time2 < "11:00:00"){
-var ucapanWaktu = 'Selamat Pagi 🌄'
+var ucapanWaktu = 'Ohayō 🙌'
  }
  if(time2 < "05:00:00"){
-var ucapanWaktu = 'Selamat Pagi 🌉'
+var ucapanWaktu = 'Ohayō 🙌'
  } 
 
 // read database
