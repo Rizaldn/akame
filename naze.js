@@ -3019,6 +3019,12 @@ let sections = [
     naze.sendListMsg(m.chat, mus, nyoutube, ``, "PILIH MENU", sections, m, {quoted: fkontak})
             }
             break
+           case 'mml': {
+
+                akk = `awiwok`
+                naze.sendText(m.chat, akk, m, {quoted: fkontak}, ``)
+            }
+            break
            case 'mgroup': {
 goup = `┌──⭓ *Group Menu*
 │
