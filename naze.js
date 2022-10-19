@@ -3003,6 +3003,22 @@ let alfamart = `628111500959@s.whatsapp.net`
                 naze.sendListMsg(m.chat, sum, nyoutube, ``, `Pilih Menu`, sections, m, {mentions: ments, quoted: fkontak})
             } 
             break
+           case 'msum': {
+
+
+mus = `${ucapanWaktu} *${pushname}*`
+let sections = [
+    {
+       title: "MENU SUMI STORE",
+       rows: [
+                {title: "MOBILE LEGENDS", rowId: `mgroup`, description: `Menampilkan List Diamond Mobile Legends`},
+                {title: "FREE FIRE", rowId: `mwebzone`, description: `Menampilkan List Diamond Free Fire`},
+                ]
+    },
+    ]
+    naze.sendListMsg(m.chat, mus, nyoutube, "PILIH MENU", sections, m, {quoted: fkontak})
+            }
+            break
            case 'mgroup': {
 goup = `┌──⭓ *Group Menu*
 │
