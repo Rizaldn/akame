@@ -27,6 +27,7 @@ const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
 const nyoutube = ('© Sumi Store | 2022')  //ubah di config biar ngk emror
 const ini_mark = `0@s.whatsapp.net`
 const ownernya = ownernomer + '@s.whatsapp.net'
+const rate = `290`
 
 //TIME
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')  
