@@ -2988,7 +2988,7 @@ let alfamart = `628111500959@s.whatsapp.net`
             case 'sumi': {
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
-            let sum = `${ucapanWaktu} *${pushname}* 🙌`
+            let kukiw = `${ucapanWaktu} *${pushname}* 🙌`
                 let sections = [
 
                 {
@@ -2999,7 +2999,7 @@ let alfamart = `628111500959@s.whatsapp.net`
                 ]
                 },
                 ]
-                naze.sendListMsg(m.chat, sum, nyoutube, `Pilih Menu`, sections, m, {quoted: fkontak})
+                naze.sendListMsg(m.chat, kukiw, nyoutube, ``, `Pilih Menu`, sections, m, {quoted: fkontak})
             } 
             break
            case 'mgroup': {
