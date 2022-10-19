@@ -31,22 +31,22 @@ const ownernya = ownernomer + '@s.whatsapp.net'
 //TIME
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')  
  if(time2 < "23:59:00"){
-var ucapanWaktu = 'Oyasuminasai 🙌'
+var ucapanWaktu = 'Oyasuminasai'
  }
  if(time2 < "19:00:00"){
-var ucapanWaktu = 'Oyasuminasai 🙌'
+var ucapanWaktu = 'Oyasuminasai'
  }
  if(time2 < "18:00:00"){
-var ucapanWaktu = "Kon'nichiwa 🙌"
+var ucapanWaktu = "Kon'nichiwa"
  }
  if(time2 < "15:00:00"){
-var ucapanWaktu = "Kon'nichiwa 🙌"
+var ucapanWaktu = "Kon'nichiwa"
  }
  if(time2 < "11:00:00"){
-var ucapanWaktu = 'Ohayō 🙌'
+var ucapanWaktu = 'Ohayō'
  }
  if(time2 < "05:00:00"){
-var ucapanWaktu = 'Ohayō 🙌'
+var ucapanWaktu = 'Ohayō'
  } 
 
 // read database
@@ -2936,8 +2936,7 @@ let alfamart = `628111500959@s.whatsapp.net`
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
             let ments = [ownernya, me, ini_mark]
-            let kukiw = ${ucapanWaktu}
- `*${ucapanWaktu} ${pushname}*
+            let kukiw = `*${ucapanWaktu} ${pushname} '🙌'*
 ╭──❍「 𝙄𝙉𝙁𝙊 𝙐𝙎𝙀𝙍 」❍
 ├ *Nama* : ${pushname}
 ├ *Number* : ${me.split('@')[0]}
