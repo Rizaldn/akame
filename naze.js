@@ -2934,7 +2934,7 @@ let alfamart = `628111500959@s.whatsapp.net`
             break
             case 'simplemenu': case 'list': case 'help': {
             let ownernya = ownernomer + '@s.whatsapp.net'
-       
+            let me = m.sender
             let kukiw = `*${ucapanWaktu} ${pushname} 🙌*
 ╭──❍「 𝙄𝙉𝙁𝙊 𝙐𝙎𝙀𝙍 」❍
 ├ *Nama* : ${pushname}
