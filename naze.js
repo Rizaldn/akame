@@ -3033,6 +3033,14 @@ let sections = [
             await naze.sendButtonText(m.chat, buttons, ww, nyoutube, m, {quoted: fkontak})
             }
             break
+           case 'qp': {
+
+                ml = `${ucapanWaktu} *${pushname}*
+                18dm Rp`65* ${rate} `makasih`
+                let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
+            await naze.sendButtonText(m.chat, buttons, ml, nyoutube, m, {quoted: fkontak})
+            }
+            break
            case 'mgroup': {
 goup = `┌──⭓ *Group Menu*
 │
