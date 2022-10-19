@@ -3093,7 +3093,7 @@ naze.sendText(m.chat, f, m, {quoted: fkontak})
                 _*Ketik Perintah Dibawah Untuk Melihat List*_
                 ${prefix}pml
                 ${prefix}pff`
-                let btn = []
+                let btn = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]]
                 await naze.sendButtonText(m.chat, btn, pf, nyoutube, m, {quoted: fkontak})
             }
             break
