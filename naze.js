@@ -27,7 +27,6 @@ const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
 const nyoutube = ('© Sumi Store | 2022')  //ubah di config biar ngk emror
 const ini_mark = `0@s.whatsapp.net`
 const ownernya = ownernomer + '@s.whatsapp.net'
-const rate = `290`
 
 //TIME
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')  
@@ -3036,7 +3035,7 @@ let sections = [
            case 'qp': {
 
                 ml = `${ucapanWaktu} *${pushname}*
-                18dm Rp`65* ${rate} `makasih`
+                18dmmakasih`
                 let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, ml, nyoutube, m, {quoted: fkontak})
             }
