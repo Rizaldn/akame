@@ -2988,7 +2988,7 @@ let alfamart = `628111500959@s.whatsapp.net`
             case 'sumi': {
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
-            let jawab = `${ucapanWaktu} *${pushname}* 🙌`
+            let kukiw = `${ucapanWaktu} *${pushname}* 🙌`
                 let sections = [
 
                 {
