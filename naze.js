@@ -3000,7 +3000,7 @@ let alfamart = `628111500959@s.whatsapp.net`
                 ]
                 },
                 ]
-                naze.sendListMsg(m.chat, sum, nyoutube, `Pilih Menu`, sections, m, {mentions: ments, quoted: fkontak})
+                naze.sendListMsg(m.chat, sum, nyoutube, ``, `Pilih Menu`, sections, m, {mentions: ments, quoted: fkontak})
             } 
             break
            case 'mgroup': {
