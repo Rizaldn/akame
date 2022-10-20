@@ -3047,7 +3047,8 @@ let sections = [
                 
                 - moba
                 - epep`
-                let btn = []
+                let btn = [
+                ]
                 await naze.sendButtonText(m.chat, btn, sbt, nyoutube, m, {quoted: fkontak})
             }
             break
