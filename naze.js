@@ -3040,7 +3040,17 @@ let sections = [
             await naze.sendButtonText(m.chat, buttons, ml, nyoutube, m, {quoted: fkontak})
             }
             break
-           
+           case 'sumibotz': {
+
+                let sbt = `${ucapanWaktu} *${pushname}*
+                _KETIK ATAU SALIN PERINTAH DIBAWAH UNTUK MENAMPILKAN LIST_
+                
+                - moba
+                - epep`
+                let btn = []
+                await naze.sendButtonText(m.chat, btn, sbt, nyoutube, m, {quoted: fkontak})
+            }
+            break
            case 'mgroup': {
 goup = `┌──⭓ *Group Menu*
 │
