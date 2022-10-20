@@ -3025,15 +3025,14 @@ let sections = [
                 naze.sendText(m.chat, akk, m, {quoted: fkontak}, ``)
             }
             break
-           case 'ccp': {
+           case 'sumibotz': {
 
                 ww = `${ucapanWaktu} *${pushname}* 🙌
 _KETIK PERINTAH DIBAWAH UNTUK MENAMPILKAN LIST_
 
 - moba
 - epep`
-                let buttons = [
-                ]
+                let buttons = [{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, ww, nyoutube, m, {quoted: fkontak})
             }
             break
