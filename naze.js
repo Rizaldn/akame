@@ -3027,8 +3027,13 @@ let sections = [
             break
            case 'ccp': {
 
-                ww = `nama saya kkkk`
-                let buttons = [{ buttonId: 'simplemenu', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
+                ww = `${ucapanWaktu} *${pushname}* 🙌
+_KETIK PERINTAH DIBAWAH UNTUK MENAMPILKAN LIST_
+
+- moba
+- epep`
+                let buttons = [
+                ]
             await naze.sendButtonText(m.chat, buttons, ww, nyoutube, m, {quoted: fkontak})
             }
             break
@@ -3040,7 +3045,7 @@ let sections = [
             await naze.sendButtonText(m.chat, buttons, ml, nyoutube, m, {quoted: fkontak})
             }
             break
-           case 'sumibotz': {
+           case 'sumibotgz': {
 
                 let sbt = `${ucapanWaktu} *${pushname}*
                 _KETIK ATAU SALIN PERINTAH DIBAWAH UNTUK MENAMPILKAN LIST_
