@@ -3028,10 +3028,21 @@ let sections = [
            case 'sumibotz': {
 
                 ww = `${ucapanWaktu} *${pushname}* 🙌
-_KETIK PERINTAH DIBAWAH UNTUK MENAMPILKAN LIST_
 
-- moba
-- epep`
+_KETIK/SALIN PERINTAH DIBAWAH UNTUK MENAMPILKAN LIST_
+
+┌──⭓ *SUMI STORE*
+│
+│⭔ sML
+│⭔ sFF
+│⭔ sGIFT
+│⭔ sMLB
+│⭔ sPYMT
+
+│
+└───────⭓
+
+_ULANGI 2x JIKA BOT TIDAK MERESPON_`
                 let buttons = [{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
             await naze.sendButtonText(m.chat, buttons, ww, nyoutube, m, {quoted: fkontak})
             }
