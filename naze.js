@@ -2987,6 +2987,7 @@ let alfamart = `628111500959@s.whatsapp.net`
             break
             case 'sumibotz': {
                 ww = `${ucapanWaktu} *${pushname}* 🙌
+
 _KETIK/SALIN PERINTAH DIBAWAH UNTUK MENAMPILKAN LIST_
 
 ┌──⭓ *SUMI STORE*
