@@ -3014,12 +3014,38 @@ _ULANGI 2x JIKA BOT TIDAK MERESPON_`
                     {
                         title: "LIST MENU SUMI STORE",
                         rows: [
-                {title: "MOBILE LEGENDS", rowId: `mgroup`, description: `Menampilkan List Diamond Mobile Legends`},
+                {title: "MOBILE LEGENDS", rowId: `sml`, description: `Menampilkan List Diamond Mobile Legends`},
                 {title: "FREE FIRE", rowId: `mwebzone`, description: `Menampilkan List Diamond Free Fire`},
                     ]
                     },
                     ]
                     naze.sendListMsg(m.chat, kukiw, nyoutube, `${ucapanWaktu} *${pushname}* 🙌`, `Pilih Menu` sections, ``, {quoted: fkontak})
+            }
+            break
+            case 'sml': {
+                ak = `ML FAST VIA ID & SERVER
+
+86💎Rp18.880
+172💎Rp37.465
+257💎Rp56.345
+344💎Rp74.930
+429💎Rp93.810
+514💎Rp112.690
+600💎Rp131.570
+706💎Rp150.450
+878💎Rp187.915
+963💎Rp206.795
+1050💎Rp225.380
+1220💎Rp263.140
+1412💎Rp300.900
+2194💎Rp451.940
+3073💎Rp639.855
+3688💎Rp754.020
+4032💎Rp828.950
+5532💎Rp1.131.620
+6238💎Rp1.282.070
+9288💎Rp1.882.100`
+            await naze.sendText(m.chat, ak, {quoted: fkontak, ``})
             }
             break
             case 'mgroup': {
