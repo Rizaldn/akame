@@ -3044,7 +3044,27 @@ _ULANGI 2x JIKA BOT TIDAK MERESPON_`
 5532💎Rp1.131.620
 6238💎Rp1.282.070
 9288💎Rp1.882.100`
-            naze.sendText(m.chat, ak, {quoted: fkontak})
+            naze.sendText(m.chat, ak, ``, {quoted: fkontak})
+            }
+            break
+            case 'sff': {
+                wl = `*FREE FIRE FAST VIA ID* PROSES 1-5 MENIT
+
+50💎 Rp6.552
+70💎 Rp9.000
+100💎 Rp13.104
+140💎 Rp18.018
+210💎 Rp27.027
+280💎 Rp36.036
+355💎 Rp45.045
+500💎 Rp63.882
+720💎 Rp90.090
+1000💎 Rp126.126
+2000💎 Rp245.700
+7290💎 Rp900.900
+MM MINGGIAN Rp27.300
+MM BULANAN Rp136.500`
+await naze.sendText(m.chat, wl, m, {quoted: fkontak})
             }
             break
             case 'mgroup': {
