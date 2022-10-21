@@ -3014,7 +3014,10 @@ _ULANGI 2x JIKA BOT TIDAK MERESPON_`
                         title: "LIST MENU SUMI STORE",
                         rows: [
                 {title: "MOBILE LEGENDS", rowId: `sml`, description: `Menampilkan List Diamond Mobile Legends`},
-                {title: "FREE FIRE", rowId: `mwebzone`, description: `Menampilkan List Diamond Free Fire`},
+                {title: "FREE FIRE", rowId: `sff`, description: `Menampilkan List Diamond Free Fire`},
+                {title: "ML PAKET B", rowId: `smlb`, description: `Menampilkan List Diamond ML Paket B`},
+                {title: "GIFT SKIN & ITEM", rowId: `sgift`, description: `Menampilkan List Gift Skin & Item`},
+                {title: "PAYMENT", rowId: `spymt`, description: `Menampilkan Metode Pembayaran Sumi Store`},
                     ]
                     },
                     ]
@@ -3044,7 +3047,7 @@ _ULANGI 2x JIKA BOT TIDAK MERESPON_`
 5532💎Rp1.131.620
 6238💎Rp1.282.070
 9288💎Rp1.882.100`
-            naze.sendText(m.chat, ak, ``, {quoted: fkontak})
+            await naze.sendText(m.chat, ak, ``, {quoted: fkontak})
             }
             break
             case 'sff': {
@@ -3064,7 +3067,42 @@ _ULANGI 2x JIKA BOT TIDAK MERESPON_`
 7290💎 Rp900.900
 MM MINGGIAN Rp27.300
 MM BULANAN Rp136.500`
-await naze.sendText(m.chat, wl, m, {quoted: fkontak})
+await naze.sendText(m.chat, wl, ``, {quoted: fkontak})
+            }
+            break
+            case 'smlb': {
+
+                pw = `ML FAST B 
+Proses 2-5MENIT MAX 12JAM
+
+14  💎 Rp3.200
+42  💎 Rp9.000
+70  💎 Rp15.500
+140 💎 Rp31.000
+284 💎 Rp62.000
+355  💎 Rp77.500
+429  💎 Rp93.000
+716  💎 Rp155.000
+1084 💎 Rp232.000
+1446 💎 Rp312.000
+2976 💎 Rp623.000
+7502 💎 Rp1.584.000
+_Wajib Tanya Stok Sebelum Order_`
+await naze.sendText(m.chat, pw, ``, {quoted: fkontak})
+            }
+            break
+            case 'sgift': {
+                tl = `Gift Skin & Item
+                
+                *_Rate 120_*
+                
+                _Cara Menghitung Rate x Jumlah Diamond_
+                _Contoh: 120 x 899 = 107.880_
+                
+                - Wajib Follow Akun Admin
+                - Dilarang Ganti Nickname
+                - Order = Setuju`
+                await naze.sendText(m.chat, tl, ``, {quoted: fkontak})
             }
             break
             case 'mgroup': {
