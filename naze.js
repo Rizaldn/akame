@@ -3006,9 +3006,8 @@ _ULANGI 2x JIKA BOT TIDAK MERESPON_`
             }
             break
             case 'list': {
-                let ownernya = ownernomer + '@s.whatsapp.net'
-                let me = m.sender
-                let ments = [ownernya, me, ini_mark]
+                if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
                 let kukiw = `List ${groupMetadata.subject}`
                 let sections = [
                     {
@@ -3045,7 +3044,7 @@ _ULANGI 2x JIKA BOT TIDAK MERESPON_`
 5532💎Rp1.131.620
 6238💎Rp1.282.070
 9288💎Rp1.882.100`
-            await naze.sendText(m.chat, ak, {quoted: fkontak}, ``)
+            naze.sendText(m.chat, ak, {quoted: fkontak})
             }
             break
             case 'mgroup': {
