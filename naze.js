@@ -3005,6 +3005,23 @@ _ULANGI 2x JIKA BOT TIDAK MERESPON_`
             await naze.sendButtonText(m.chat, buttons, ww, nyoutube, m, {quoted: fkontak})
             }
             break
+            case 'list': {
+                let ownernya = ownernomer + '@s.whatsapp.net'
+                let me = m.sender
+                let ments = [ownernya, me, ini_mark]
+                let kukiw = `List ${groupMetadata.subject}`
+                let sections = [
+                    {
+                        title: "LIST MENU SUMI STORE",
+                        rows: [
+                {title: "MOBILE LEGENDS", rowId: `mgroup`, description: `Menampilkan List Diamond Mobile Legends`},
+                {title: "FREE FIRE", rowId: `mwebzone`, description: `Menampilkan List Diamond Free Fire`},
+                    ]
+                    },
+                    ]
+                    naze.sendListMsg(m.chat, kukiw, nyoutube, `${ucapanWaktu} *${pushname}* 🙌`, `Pilih Menu` sections, ``, {quoted: fkontak})
+            }
+            break
             case 'mgroup': {
 goup = `┌──⭓ *Group Menu*
 │
