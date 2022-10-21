@@ -3045,7 +3045,7 @@ _ULANGI 2x JIKA BOT TIDAK MERESPON_`
 5532💎Rp1.131.620
 6238💎Rp1.282.070
 9288💎Rp1.882.100`
-            await naze.sendText(m.chat, ak, {quoted: fkontak, ``})
+            await naze.sendText(m.chat, ak, {quoted: fkontak}, ``)
             }
             break
             case 'mgroup': {
