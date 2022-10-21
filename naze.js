@@ -3019,7 +3019,7 @@ _ULANGI 2x JIKA BOT TIDAK MERESPON_`
                     ]
                     },
                     ]
-                    naze.sendListMsg(m.chat, kukiw, nyoutube, `${ucapanWaktu} *${pushname}* 🙌`, `Pilih Menu` sections, ``, {quoted: fkontak})
+                    naze.sendListMsg(m.chat, kukiw, nyoutube, `${ucapanWaktu} *${pushname}* 🙌`, `Pilih Menu`, sections, ``, {quoted: fkontak})
             }
             break
             case 'sml': {
