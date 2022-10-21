@@ -2903,7 +2903,7 @@ let alfamart = `628111500959@s.whatsapp.net`
             case 'smenu': {
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
-            let jawab = `*${ucapanWaktu}*
+            let jawab = `*${ucapanWaktu}* ${groupMetadata}
 ╭──❍「 𝙄𝙉𝙁𝙊 𝙐𝙎𝙀𝙍 」❍
 ├ *Nama* : ${pushname}
 ├ *Number* : @${me.split('@')[0]}
@@ -2936,7 +2936,7 @@ let alfamart = `628111500959@s.whatsapp.net`
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
             let ments = [ownernya, me, ini_mark]
-            let kukiw = `*${ucapanWaktu}*
+            let kukiw = `*${ucapanWaktu}* ${groupName}
 ╭──❍「 𝙄𝙉𝙁𝙊 𝙐𝙎𝙀𝙍 」❍
 ├ *Nama* : ${pushname}
 ├ *Number* : ${me.split('@')[0]}
