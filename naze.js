@@ -3105,6 +3105,19 @@ await naze.sendText(m.chat, pw, ``, {quoted: fkontak})
                 await naze.sendText(m.chat, tl, ``, {quoted: fkontak})
             }
             break
+            case 'spymt': {
+                gl = `PAYMENT
+            
+➭ Dana : 083153294303
+➭ Ovo : 0882006679823
+➭ Gopay : 0882006679823
+➭ ShopeePay : 0882006679823
+    
+*Qris All Payment :*
+https://telegra.ph/file/2835076b6623102482f9a.png`
+await naze.sendText(m.chat, gl, ``, {quoted: fkontak})
+            }
+            break
             case 'mgroup': {
 goup = `┌──⭓ *Group Menu*
 │
